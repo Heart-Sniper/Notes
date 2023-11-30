@@ -1,4 +1,4 @@
-# 常见术语及基本概念
+# 常见术语及基本概念 in Mess
 
 + pretext task：即预训练任务，也称前置任务、代理任务。
 + downstream task：下游任务，通常指代对网络进行微调的任务。
@@ -26,7 +26,10 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;与稀疏特征相对。
 + discrete feature：离散特征，包含有限个可能值。</br>
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;与连续特征相对。
-+ embeddings：
++ badcase：模型预测效果较差的样本/样本类型。
++ query：中文直译为“查询”，泛指请求或寻求系统、模型、数据集或数据库的特定信息、预测或操作。
+  + 在神经网络中：query通常是指“向模型提供输入以进行预测或推理”。模型基于该输入的输出被视为query result。
+  + 在Attention中：在基于Attention的模型（e.g. Transformer）中，query是用于计算注意力权重时使用的键和值的三个组成部分之一。</br>query用于根据键值计算注意力分数，以便从值中检索信息。
 
 # 常见术语缩写
 

@@ -7,7 +7,8 @@ Attention 分为空间注意力（用于CV领域）和时间注意力（用于NLP领域）。
 
 ![avatar](Images/Attention_relationship.png)
 
-+ 为什么要引入Attention:
+
++ 为什么要引入Attention:</br>
   由Encoder生成的中间向量C的长度是固定的。当输入的原序列的长度比较长时，中间向量C无法保存全部的信息，
 
 ## Attention的优缺点
