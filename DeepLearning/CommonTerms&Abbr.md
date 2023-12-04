@@ -37,7 +37,10 @@
  &emsp;&emsp;&emsp;&thinsp;Paddlepaddle提供的一种知识蒸馏方案。
 + MSA：多头注意力机制（Multi-head Self-Attention）
 + FC：全连接层（Fully connected layer）
++ FFN：前馈神经网络（Feed-Forward Network）</br>
+  Transformer 中的 FFN 指 Position-wise Feed-Forward Network, 和普通的 FC 层有区别。
 + OHEM: 在线难例挖掘（Online hard example mining）
 + BN：批归一化（Batch Normalization）
 + GAP：全局平均池化（Global Average Pooling）
 + BP：反向传播（Back-propagation）
+  
