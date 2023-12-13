@@ -6,7 +6,7 @@
 
 ### 算力 $\pi$
 
-&emsp;&emsp;计算平台的算力，又称为计算平台的性能上限。通常用 [FLOPS](../EvaluationMetrics/FLOPS&FLOPs#FLOPS) or FLOP/s 来衡量。
+&emsp;&emsp;计算平台的算力，又称为计算平台的性能上限。通常用 [FLOPS](../EvaluationMetrics/FLOPS&FLOPs.md#FLOPS) or FLOP/s 来衡量。
 
 ### 带宽 $\beta$
 
