@@ -1,11 +1,11 @@
-# Êý¾Ý¼¯Ñù±¾Àà±ð²»¾ùºâ
+# æ•°æ®é›†æ ·æœ¬ç±»åˆ«ä¸å‡è¡¡
 
-## ´Ó²ÉÑù½Ç¶È¿´£º
+## ä»Žé‡‡æ ·è§’åº¦çœ‹ï¼š
 
-+ ¶ÔÊý¾Ý¼¯¸ù¾ÝÀà±ð½øÐÐ¶¯Ì¬²ÉÑù£¬Ã¿¸öÀà±ðÉèÖÃ²»Í¬µÄ²ÉÑù¸ÅÂÊ£¬±£Ö¤²»Í¬Àà±ðµÄÍ¼Æ¬ÔÚÍ¬Ò»¸ö minibatch »òÕßÍ¬Ò»¸ö epoch ÄÚ£¬²»Í¬Àà±ðµÄÑµÁ·Ñù±¾ÊýÁ¿»ù±¾Ò»ÖÂ»òÕß·ûºÏ×Ô¼ºÆÚÍûµÄ±ÈÀý¡£
-+ Ê¹ÓÃ¹ý²ÉÑù£¨Oversampling£©·½·¨£¬¶ÔÍ¼Æ¬ÊýÁ¿½ÏÉÙµÄÀà±ð½øÐÐ¹ý²ÉÑù¡£
++ å¯¹æ•°æ®é›†æ ¹æ®ç±»åˆ«è¿›è¡ŒåŠ¨æ€é‡‡æ ·ï¼Œæ¯ä¸ªç±»åˆ«è®¾ç½®ä¸åŒçš„é‡‡æ ·æ¦‚çŽ‡ï¼Œä¿è¯ä¸åŒç±»åˆ«çš„å›¾ç‰‡åœ¨åŒä¸€ä¸ª minibatch æˆ–è€…åŒä¸€ä¸ª epoch å†…ï¼Œä¸åŒç±»åˆ«çš„è®­ç»ƒæ ·æœ¬æ•°é‡åŸºæœ¬ä¸€è‡´æˆ–è€…ç¬¦åˆè‡ªå·±æœŸæœ›çš„æ¯”ä¾‹ã€‚
++ ä½¿ç”¨è¿‡é‡‡æ ·ï¼ˆOversamplingï¼‰æ–¹æ³•ï¼Œå¯¹å›¾ç‰‡æ•°é‡è¾ƒå°‘çš„ç±»åˆ«è¿›è¡Œè¿‡é‡‡æ ·ã€‚
   
-## ´ÓËðÊ§º¯Êý½Ç¶È¿´£º
+## ä»ŽæŸå¤±å‡½æ•°è§’åº¦çœ‹ï¼š
 
-+ Ê¹ÓÃ OHEM£¨online hard example mining£©·½·¨£¬¸ù¾ÝÑù±¾µÄ loss ½øÐÐÉ¸Ñ¡£¬É¸Ñ¡³ö hard example ÓÃÓÚÄ£ÐÍµÄÌÝ¶È·´Ïò´«²¥ºÍ²ÎÊý¸üÐÂ¡£
-+ ²ÉÓÃ Focal loss£¬¶ÔÈÝÒ×·ÖÀàµÄÑù±¾µÄ loss ¸³Óè½ÏÐ¡µÄÈ¨ÖØ£¬¶ÔÄÑ·ÖÀàµÄÑù±¾µÄ loss ¸³Óè½Ï´óµÄÈ¨ÖØ¡£´Ó¶øÈÃÈÝÒ×·ÖÀàµÄÑù±¾µÄ loss ¶ÔÍøÂçÕûÌåµÄ loss ÓÐ¹±Ï×£¬µ«ÓÖ²»»áÖ÷µ¼ loss¡£
++ ä½¿ç”¨ OHEMï¼ˆonline hard example miningï¼‰æ–¹æ³•ï¼Œæ ¹æ®æ ·æœ¬çš„ loss è¿›è¡Œç­›é€‰ï¼Œç­›é€‰å‡º hard example ç”¨äºŽæ¨¡åž‹çš„æ¢¯åº¦åå‘ä¼ æ’­å’Œå‚æ•°æ›´æ–°ã€‚
++ é‡‡ç”¨ Focal lossï¼Œå¯¹å®¹æ˜“åˆ†ç±»çš„æ ·æœ¬çš„ loss èµ‹äºˆè¾ƒå°çš„æƒé‡ï¼Œå¯¹éš¾åˆ†ç±»çš„æ ·æœ¬çš„ loss èµ‹äºˆè¾ƒå¤§çš„æƒé‡ã€‚ä»Žè€Œè®©å®¹æ˜“åˆ†ç±»çš„æ ·æœ¬çš„ loss å¯¹ç½‘ç»œæ•´ä½“çš„ loss æœ‰è´¡çŒ®ï¼Œä½†åˆä¸ä¼šä¸»å¯¼ lossã€‚
